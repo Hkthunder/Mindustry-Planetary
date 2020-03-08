@@ -1,0 +1,19 @@
+size: 2
+update: true
+solid: true
+hasItems: true
+configurable: true
+localizedName: "Moon Spray"
+description: "A player-activatable block that sprays moon dust everywhere upon use."
+category: turret
+requirements: [
+  graphite/75,
+  moon-dust/30
+]
+consumes: {
+  items: {
+    items: [
+      moon-dust/10
+    ]
+  }
+}
