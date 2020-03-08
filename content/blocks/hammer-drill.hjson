@@ -8,7 +8,7 @@ consumes: {
   power: 25
   items: {
     items: [
-      blast-compound
+      pyrarite
     ]
   }
   liquid: {
