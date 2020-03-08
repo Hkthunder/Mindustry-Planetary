@@ -8,7 +8,7 @@ consumes: {
   power: 25
   items: {
     items: [
-      blastCompound
+      blast-compound
     ]
   }
   liquid: {
@@ -21,7 +21,7 @@ requirements: [
   silicon/300
   graphite/400
   thorium/100
-  surgeAlloy/250
+  surge-alloy/250
   metaglass/250
   titanium/200
 ]
