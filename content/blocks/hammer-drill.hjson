@@ -1,7 +1,7 @@
 name: Plasma Hammer Drill
 description: A drill that uses similar mechanisms to the Impact Reactor. The only thing hard enough to break Moon Rocks.
 type: Drill
-size: 4
+size: 3
 tier: 1
 drillTime: 250
 consumes: {
