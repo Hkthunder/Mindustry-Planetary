@@ -1,0 +1,29 @@
+name: Plasma Hammer Drill
+description: A drill that uses similar mechanisms to the Impact Reactor. The only thing hard enough to break Moon Rocks.
+type: Drill
+size: 4
+tier: 2
+drillTime: 250
+consumes: {
+  power: 25
+  items: {
+    items: [
+      blast-compound
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.25
+  }
+}
+requirements: [
+  lead/500
+  silicon/300
+  graphite/400
+  thorium/100
+  surge-alloy/250
+  metaglass/250
+  titanium/200
+]
+category: production
+research: blast-drill
