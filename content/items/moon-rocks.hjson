@@ -1,6 +1,0 @@
-type: material
-name: Moon Rocks
-description: Rocks from a natural sattelite of the world.
-hardness: 5
-cost: 1f
-color: 575655

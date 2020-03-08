@@ -1,0 +1,6 @@
+type: material
+name: Moon Dust
+description: Dust extracted from moon rocks.
+hardness: 5
+cost: 1f
+color: 575655
