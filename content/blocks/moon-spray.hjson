@@ -1,6 +1,7 @@
 localizedName: "Moon Spray"
 description: "A turret that will spray a messy stream of moon fluid on your enemies."
 category: turret
+size: 2
 shootEffect: wet
 smokeEffect: steam
 shootSound: spray
@@ -19,3 +20,4 @@ ammo: {
   liquid: moon-fluid
   }
 }
+research: wave
