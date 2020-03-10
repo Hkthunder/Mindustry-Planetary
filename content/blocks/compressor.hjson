@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Compressor
+description: Compresses moon dust and water to produce moon fluid.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      moon-dust/2
+    ]
+  }
+  liquid: {
+    liquid: moon-fluid
+    amount: 1
+  }
+}
+requirements: [
+  lead/50
+  metaglass/80
+  silicon/60
+  moon-dust/50
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: moon-fluid
