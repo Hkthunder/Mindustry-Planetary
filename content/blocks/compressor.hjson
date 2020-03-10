@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Compressor
-description: Compresses moon dust and water to produce moon fluid.
+description: Compresses moon dust and water to produce moon fluid in a process similar to the Plastanium Compressor.
 liquidCapacity: 50
 size: 2
 hasPower: true
