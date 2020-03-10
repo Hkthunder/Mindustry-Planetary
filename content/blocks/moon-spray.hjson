@@ -1,19 +1,21 @@
-size: 2
-update: true
-solid: true
-hasItems: true
-configurable: true
 localizedName: "Moon Spray"
-description: "A player-activatable block that sprays moon dust everywhere upon use."
+description: "A turret that will spray a messy stream of moon fluid on your enemies."
 category: turret
+shootEffect: wet
+smokeEffect: steam
+shootSound: spray
+ammoPerShot: 5
+shots: 5
+spread: 10
 requirements: [
   graphite/75,
   moon-dust/30
 ]
-consumes: {
-  items: {
-    items: [
-      moon-dust/10
-    ]
+ammo: {
+  moon-fluid: {
+  type: LiquidBulletType
+  damage: 5
+  lifetime: 300
+  liquid: moon-fluid
   }
 }
