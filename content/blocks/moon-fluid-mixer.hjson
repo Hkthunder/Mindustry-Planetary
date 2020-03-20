@@ -27,5 +27,5 @@ requirements: [
   moon-dust/50
 ]
 category: crafting
-research: cryofluidMixer
+research: cryofluid-mixer
 outputLiquid: moon-fluid/1
