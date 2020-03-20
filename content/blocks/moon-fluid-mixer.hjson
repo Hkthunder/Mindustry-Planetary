@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Compressor
+name: Moon Fluid Mixer
 description: Compresses moon dust and water to produce moon fluid in a process similar to the Plastanium Compressor.
 liquidCapacity: 50
 size: 2
@@ -7,6 +7,7 @@ hasPower: true
 hasLiquids: true
 hasItems: true
 craftTime: 60
+updateEffect: bubble
 consumes: {
   power: 0.7
   items: {
@@ -26,7 +27,5 @@ requirements: [
   moon-dust/50
 ]
 category: crafting
-research: plastanium-compressor
-idleSound: respawning
-idleSoundVolume: 0.5
+research: cryofluid-mixer
 outputLiquid: moon-fluid/1
